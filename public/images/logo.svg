@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 512 512"
+   version="1.1"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview65"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.74577668"
+     inkscape:cx="4.6930939"
+     inkscape:cy="227.95027"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs20">
+    <style
+       id="style18">.cls-1{fill:#fff;}.cls-2{fill:#004a9e;}</style>
+  </defs>
+  <title
+     id="title22">DPCC_App</title>
+  <circle
+     class="cls-1"
+     cx="255.81"
+     cy="257"
+     r="248.25"
+     id="circle24" />
+  <path
+     class="cls-2"
+     d="M292,493.72a231.29,231.29,0,0,0,28.14-6.24,235.71,235.71,0,0,1-27.74,6Z"
+     id="path34" />
+  <path
+     class="cls-2"
+     d="M418.34,82.41H93.28c-5.44,5-10.6,10.32-15.56,15.84H433.84C428.88,92.73,423.78,87.45,418.34,82.41Z"
+     id="path36"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M486.81,197.77H24.65q-2,7.81-3.51,15.83H490.31Q488.83,205.59,486.81,197.77Z"
+     id="path38"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M493.58,238.07H17.87q-.63,7.86-.75,15.84H494.34Q494.22,245.92,493.58,238.07Z"
+     id="path40"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M255.81,18.47a247.27,247.27,0,0,0-80,13.77H335.85A238.1,238.1,0,0,0,255.81,18.47Z"
+     id="path42"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M417.09,290.64l-6.25-2.88c-32.07-15.11-68.43-32.24-101.66-14.1l-2.87,1.55c-26.86,14.68-54.7,29.88-83.95,10.31-38.9-25.91-72-26.09-131.31-.69C58,299,32.68,287.64,17.79,276.27c.53,6.78,1.35,13.47,2.42,20.08,18.57,10.29,44.92,16.87,77.06,3,60.74-25.91,85.88-21,116.28-.69,37.42,24.87,73.76,4.95,100.36-9.59l2.88-1.58c26.14-14.4,57.23.37,87.28,14.39l6.34,2.88a67.71,67.71,0,0,0,28.79,6.1c18.89,0,37.41-6.48,51.87-13.41q1.57-9.42,2.41-19.08C474.71,289.09,442.71,302.52,417.09,290.64Z"
+     id="path44"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M416.91,322.22c-3.62-1.58-7.28-3.22-10.94-4.89-30.48-13.76-65.09-29.37-96.79-12.06l-2.87,1.55c-26.86,14.68-54.7,29.88-83.95,10.31-38.9-25.91-72-26.09-131.31-.69-29.33,12.56-52.54,5-67.81-4.69,1.61,6.95,3.54,13.79,5.74,20.49,17.75,7.51,40.94,10.52,68.38-1.24,60.74-25.91,85.87-20.95,116.27-.69,37.43,24.88,73.76,4.95,100.36-9.58l2.88-1.59c24.76-13.5,52.92-.8,82.68,12.64,3.72,1.67,7.43,3.34,11.12,5a74,74,0,0,0,29.88,6A114.88,114.88,0,0,0,481.9,334q3.33-9.88,5.81-20.15C468.79,323.45,441.13,332.81,416.91,322.22Z"
+     id="path46"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M145.89,330.05a243.85,243.85,0,0,0,9.62,65.64h91.26V357.11A59.86,59.86,0,0,1,218,346.75C195.07,331.46,174.68,325.07,145.89,330.05Z"
+     id="path48"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M313,335.23c-16.47,9-35,19.64-54.7,21.71v38.75H352a240.71,240.71,0,0,0,9.88-65.9C345.11,326.14,328.33,326.91,313,335.23Z"
+     id="path50"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M134.38,332.53a280.71,280.71,0,0,0-40.31,14.22c-23.2,10-43,8.44-58.65,2.8A238.77,238.77,0,0,0,61,395.69h82.5A252.12,252.12,0,0,1,134.38,332.53Z"
+     id="path52"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M258.29,495.5c50.69-15,76.66-52.31,89.93-88.29H258.29Z"
+     id="path54"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M246.77,494.64V407.21H159.4C175.83,452.2,205.17,481.57,246.77,494.64Z"
+     id="path56"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M413.75,352.51A196.69,196.69,0,0,0,373.44,333a252.52,252.52,0,0,1-9.15,62.73H449.9c9.36-13.64,18.85-28.71,25.17-44.62h0C456.07,358.09,430.44,362.78,413.75,352.51Z"
+     id="path58"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M441.11,407.21H360.66c-13.47,39.3-36.71,68.46-68.23,86.27a235.71,235.71,0,0,0,27.74-6C366.93,474,411,446,441.11,407.21Z"
+     id="path60"
+     style="fill:#098314;fill-opacity:1" />
+  <path
+     class="cls-2"
+     d="M147.16,407.21H69.77a239.48,239.48,0,0,0,26.76,28.21c26.77,23,62.87,45.65,113.45,55.71C181.22,473.11,159.86,444.23,147.16,407.21Z"
+     id="path62"
+     style="fill:#098314;fill-opacity:1" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#098314;fill-opacity:1"
+     x="82.159042"
+     y="183.34357"
+     id="text279"><tspan
+       sodipodi:role="line"
+       id="tspan277"
+       x="82.159042"
+       y="183.34357"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#098314;fill-opacity:1">D P C C</tspan></text>
+</svg>
