@@ -1,12 +1,14 @@
 "use client"
 
 import { useCallback, useState } from "react"
-import axios from "axios"
+import { signIn } from "next-auth/react"
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form"
 
 import { Input } from "@/components/ui/input"
+import { useToast } from "@/components/ui/use-toast"
 
 export default function Login() {
+  const { toast } = useToast()
   const [isLoading, setIsLoading] = useState(false)
   const {
     register,
@@ -20,10 +22,21 @@ export default function Login() {
   })
   const onSubmit: SubmitHandler<FieldValues> = (data) => {
     setIsLoading(true)
-    axios
-      .post("/api/auth/callback/credentials", data)
+    signIn("credentials", {
+      email: data.email,
+      password: data.password,
+      callbackUrl: "/",
+      redirect: false,
+    })
       .then((res) => {
         console.log(res)
+      })
+      .catch((err) => {
+        toast({
+          title: "Error",
+          description: "There was an error logging in with Google",
+          variant: "destructive",
+        })
       })
       .finally(() => {
         setIsLoading(false)
@@ -45,7 +58,7 @@ export default function Login() {
         </div>
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form className="space-y-6">
+          <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
             <div>
               <label
                 htmlFor="email"
@@ -56,10 +69,9 @@ export default function Login() {
               <div className="mt-2">
                 <input
                   id="email"
-                  name="email"
                   type="email"
                   autoComplete="email"
-                  required
+                  {...register("email", { required: true })}
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -85,10 +97,9 @@ export default function Login() {
               <div className="mt-2">
                 <input
                   id="password"
-                  name="password"
                   type="password"
                   autoComplete="current-password"
-                  required
+                  {...register("password", { required: true })}
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
