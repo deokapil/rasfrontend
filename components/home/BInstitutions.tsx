@@ -11,7 +11,7 @@ type Props = {}
 const BInstitutions = (_props: Props) => {
   return (
     <div>
-      <section className="mt-28 md:mt-20 relative bg-green-50 py-2">
+      <section className="relative container bg-slate-700 py-4">
         <div className="justify-center text-center flex flex-wrap mt-24">
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <SectionHeading title="Institutions Involved" />

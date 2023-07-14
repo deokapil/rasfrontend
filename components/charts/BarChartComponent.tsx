@@ -7,35 +7,21 @@ import { HighchartsReact } from "highcharts-react-official"
 import { BarData } from "@/types/reports"
 
 export type BarChartProps = {
-  data: BarData[]
+  data: Highcharts.Options
   title?: string
 }
 
+const defaultOptions: Highcharts.Options = {
+  chart: {
+    type: "column",
+  },
+  title: {
+    text: "Bar Chart",
+  },
+}
+
 const BarChartComponent: React.FC<BarChartProps> = ({ data, title }) => {
-  console.log(data.map((item) => item.y))
-  const options: Highcharts.Options = {
-    chart: {
-      type: "column",
-    },
-    title: {
-      text: title || "Bar Chart",
-    },
-    xAxis: {
-      categories: data.map((item) => item.name),
-    },
-    yAxis: {
-      min: 0,
-      title: {
-        text: "Total Fruit Consumption",
-      },
-    },
-    series: [
-      {
-        type: "column",
-        data: data.map((item) => item.y),
-      },
-    ],
-  }
+  const options: Highcharts.Options = data
 
   return <HighchartsReact highcharts={Highcharts} options={options} />
 }

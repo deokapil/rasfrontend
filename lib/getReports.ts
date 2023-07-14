@@ -12,8 +12,27 @@ export async function getReports(query: ReportParams) {
   const ReportParams = new URLSearchParams(query)
 
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_SERVER_URL}/reports?${ReportParams}`,
-    { next: { revalidate: 30 } }
+    `${process.env.NEXT_PUBLIC_API_SERVER_URL}/reports?${ReportParams}`,
+    {
+      next: { revalidate: 30 },
+      headers: {
+        Authorization: `Api-Key ${process.env.NEXT_PUBLIC_API_SERVER_KEY}`,
+      },
+    }
+  )
+
+  return response.json()
+}
+
+export async function getDashBoardReports() {
+  const response = await fetch(
+    `${process.env.NEXT_PUBLIC_API_SERVER_URL}/reports/dashboard`,
+    {
+      next: { revalidate: 30 },
+      headers: {
+        Authorization: `Api-Key ${process.env.NEXT_PUBLIC_API_SERVER_KEY}`,
+      },
+    }
   )
 
   return response.json()

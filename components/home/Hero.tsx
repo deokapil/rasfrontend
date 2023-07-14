@@ -1,13 +1,22 @@
-'use client';
+"use client"
 
-type Props = {};
+import Image from "next/image"
+
+type Props = {}
 
 const Hero = (_props: Props) => {
   return (
-    <div className="pt-24 bg-hero-pattern bg-no-repeati bg-cover">
+    <div className="pt-20 bg-hero-pattern bg-no-repeati bg-cover">
       <div className="container mx-auto">
         <div className="px-2 mx-auto flex flex-wrap flex-col md:flex-row items-center relative z-0">
-          <div className="w-full md:w-3/6 py-6 text-center"></div>
+          <div className="w-full md:w-3/6 py-6 text-center">
+            <Image
+              src="/images/delhi.png"
+              alt="hero"
+              width={500}
+              height={500}
+            />
+          </div>
           <div className="flex flex-col w-full md:w-3/6 justify-center items-start text-center md:text-left">
             <h1 className="my-6 md:text-5xl text-3xl font-bold leading-tight">
               Real-time Advanced Air Source Management Network
@@ -19,7 +28,7 @@ const Hero = (_props: Props) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

@@ -1,6 +1,6 @@
-import Link from 'next/link';
+import Link from "next/link"
 
-type Props = {};
+type Props = {}
 
 const BFooter = (_props: Props) => {
   const _mapLocation = {
@@ -9,11 +9,11 @@ const BFooter = (_props: Props) => {
       lng: 77.01502627,
     },
     zoom: 11,
-  };
+  }
 
   return (
     <div>
-      <footer className="relative bg-primary mt-4 pt-8 pb-6">
+      <footer className="relative bg-slate-950 mt-4 pt-8 pb-6">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
@@ -83,7 +83,7 @@ const BFooter = (_props: Props) => {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-6/12 px-4 mx-auto text-center">
               <div className="text-sm text-blueGray-500 font-semibold py-1">
-                Copyright © All rights reserved | {new Date().getFullYear()}{' '}
+                Copyright © All rights reserved | {new Date().getFullYear()}{" "}
                 Delhi Pollution Control Committee.
               </div>
             </div>
@@ -91,7 +91,7 @@ const BFooter = (_props: Props) => {
         </div>
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default BFooter;
+export default BFooter

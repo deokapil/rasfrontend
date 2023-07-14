@@ -1,5 +1,8 @@
+"use client"
+
 import dynamic from "next/dynamic"
 
+const isBrowser = () => typeof window !== "undefined" //The approach recommended by Next.js
 const DynamicMapCard = dynamic(() => import("./DynamicMapCard"), {
   ssr: false,
 })
@@ -11,7 +14,7 @@ type Props = {}
 const MapCard = (props: Props) => {
   return (
     <div className="w-full h-128">
-      <DynamicMapCard {...props} />
+      {!isBrowser() && <DynamicMapCard {...props} />}
     </div>
   )
 }

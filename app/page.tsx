@@ -2,6 +2,7 @@ import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import BFeatures from "@/components/home/BFeatures"
+import BFooter from "@/components/home/BFooter"
 import BInstitutions from "@/components/home/BInstitutions"
 import Base from "@/components/home/Base"
 import Hero from "@/components/home/Hero"
@@ -15,6 +16,7 @@ export default function IndexPage() {
         <HomeAbout />
         <BFeatures />
         <BInstitutions />
+        <BFooter />
       </Base>
     </section>
   )

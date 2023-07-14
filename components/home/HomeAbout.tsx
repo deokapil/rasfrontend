@@ -12,7 +12,7 @@ const HomeAbout = (_props: Props) => {
     <section className="py-8 bg-white-100">
       <div className="container max-w-6xl mx-auto m-8">
         <div className="flex flex-wrap">
-          <div className="w-full sm:w-3/6 p-6 text-slate-800">
+          <div className="w-full sm:w-3/6 p-6 light:text-slate-800 dark: text-slate-100">
             <SectionHeading title="About R-AASMAN" />
 
             <p className="mb-4">

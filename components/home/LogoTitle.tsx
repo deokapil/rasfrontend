@@ -5,7 +5,7 @@ const LogoTitle = (_props: Props) => {
     <>
       <span className="ml-2 inline">
         <span className="block tracking-tighter no-underline hover:no-underline font-bold text-2xl lg:text-3xl">
-          R-AASMAN
+          Delhi Pollution Control Committee
         </span>
       </span>
     </>

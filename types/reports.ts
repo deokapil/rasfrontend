@@ -1,3 +1,5 @@
+import { type } from "os"
+
 export interface features {
   id: number
   type: string
@@ -24,10 +26,13 @@ export interface site {
 }
 
 export type RealTimeAQI = {
-  // name: string;
+  bucket: string
   Aqi: number
 }
-
+export type TSReportUnit = {
+  bucket: string
+  unit: number
+}
 export type RealTimeSA = {
   Industry: number
   Other: number
@@ -40,6 +45,7 @@ export type RealTimeSA = {
   Roaddust: number
   MSW: number
   Domestic: number
+  bucket: string
 }
 
 export type PIData = {
@@ -50,4 +56,9 @@ export type PIData = {
 export type BarData = {
   name: string
   y: number
+}
+
+export type DashboardData = {
+  aqi_daily: TSReportUnit[]
+  aqi_monthly: TSReportUnit[]
 }

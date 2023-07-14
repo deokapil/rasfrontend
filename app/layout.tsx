@@ -40,7 +40,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           )}
         >
           <main>
-            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
               {children}
               <Toaster />
             </ThemeProvider>
